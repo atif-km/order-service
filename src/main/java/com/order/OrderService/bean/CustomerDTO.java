@@ -12,6 +12,12 @@ public class CustomerDTO {
     private String name;
     private String email;
 
+    public CustomerDTO(Integer id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }

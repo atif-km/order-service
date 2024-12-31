@@ -12,6 +12,12 @@ public class ProductDTO {
     private String name;
     private Double price;
 
+    public ProductDTO(Integer id, String name, Double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -7,3 +7,18 @@ http://localhost:8082/products/1
 http://localhost:8083/orders/product/1
 http://localhost:8083/orders/customer/1
 http://localhost:8083/orders
+
+
+Endpoints (through Gateway):
+
+http://localhost:8087/orders
+Customer Service: http://localhost:8087/customers/1
+http://localhost:8087/customers
+http://localhost:8087/orders/customer/1
+
+Product Service: http://localhost:8087/products/2
+http://localhost:8087/products
+http://localhost:8087/orders/product/1
+
+Order Service:
+http://localhost:8087/orders
